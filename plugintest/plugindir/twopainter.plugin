@@ -1,0 +1,9 @@
+[Core]
+Name = TwoPainter
+Module = twopainter
+
+[Documentation]
+Author = Roberto Alsina
+Version = 0.1
+Website = http://lateral.netmanagers.com.ar
+Description = Highlights Python Code

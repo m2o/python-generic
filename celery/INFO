@@ -1,0 +1,33 @@
+[2011-09-14 15:24:50,523: WARNING/MainProcess] -------------- celery@toni-infosol-laptop v2.3.2
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://myuser@localhost:5672/myvhost
+- ** ----------   . loader:      celery.loaders.default.Loader
+- ** ----------   . logfile:     INFO@WARNING
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+[2011-09-14 15:24:50,539: WARNING/MainProcess] celery@toni-infosol-laptop has started.
+[2011-09-14 15:25:07,357: WARNING/MainProcess] celeryd: Hitting Ctrl+C again will terminate all running tasks!
+[2011-09-14 15:25:07,358: WARNING/MainProcess] celeryd: Warm shutdown (MainProcess)
+[2011-09-14 18:35:43,249: WARNING/MainProcess] -------------- celery@toni-infosol-laptop v2.3.2
+---- **** -----
+--- * ***  * -- [Configuration]
+-- * - **** ---   . broker:      amqp://myuser@localhost:5672//
+- ** ----------   . loader:      celery.loaders.default.Loader
+- ** ----------   . logfile:     INFO@WARNING
+- ** ----------   . concurrency: 2
+- ** ----------   . events:      OFF
+- *** --- * ---   . beat:        OFF
+-- ******* ----
+--- ***** ----- [Queues]
+ --------------   . celery:      exchange:celery (direct) binding:celery
+[2011-09-14 18:35:43,260: WARNING/MainProcess] celery@toni-infosol-laptop has started.
+[2011-09-14 18:35:46,265: ERROR/MainProcess] Consumer: Connection Error: Socket closed. Trying again in 2 seconds...
+[2011-09-14 18:35:51,276: ERROR/MainProcess] Consumer: Connection Error: Socket closed. Trying again in 4 seconds...
+[2011-09-14 18:35:51,309: WARNING/MainProcess] celeryd: Hitting Ctrl+C again will terminate all running tasks!
+[2011-09-14 18:35:51,310: WARNING/MainProcess] celeryd: Warm shutdown (MainProcess)
+[2011-09-14 18:35:52,872: WARNING/MainProcess] celeryd: Cold shutdown (MainProcess)

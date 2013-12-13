@@ -1,0 +1,8 @@
+5
+S....
+WWWW.
+.....
+.WWWW
+....Eif __name__ == '__main__':
+	value = raw_input()
+	print value
